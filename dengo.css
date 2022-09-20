@@ -1,0 +1,564 @@
+* {
+	font-family: 'Work Sans', sans-serif;
+}
+
+body {
+	background-color: #fef7e9;
+}
+
+.barra {
+	height: 30px;
+	background-color: rgb(255, 209, 0);
+	font-size: 12px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	margin-left: 148px;
+	margin-right: 148px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.logo {
+	width: 54px;
+	height: 51.125px;
+	display: block;
+}
+
+nav ul {
+	display: flex;
+}
+
+.menu-produtos li a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 12px;
+}
+
+.menu-produtos a {
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+	font-weight: 300;
+}
+
+.menu-produtos img {
+	margin-bottom: 6px;
+}
+
+.icone-presentes {
+	width: 28.281px;
+}
+
+.icone-chocolates {
+	width: 18.125px;
+}
+
+.icone-bebidas {
+	width: 22.297px;
+}
+
+.icone-dengo-casa {
+	width: 29.625px;
+}
+
+.icone-corporativo {
+	width: 37.125px;
+}
+
+.menu-usuario li {
+	margin-right: 15px;
+}
+
+.busca {
+	width: 11.891px;
+}
+
+.carrinho {
+	width: 15.703px;
+}
+
+.login {
+	width: 15.547px;
+}
+
+.kit-fondue {
+	width: 1265px;
+	height: 360px;
+}
+
+.xodos h2 {
+	margin: 36px;
+	font-size: 27px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.xodos {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.xodos ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.xodos li {
+	box-sizing: border-box;
+	width: 33%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 24px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.xodos img {
+	width: 100%;
+	padding-bottom: 18px;
+}
+
+.xodos a .btn-euquero {
+	display: block;
+	padding: 15px 48px;
+	background-color: rgb(255, 209, 0);
+	text-align: center;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.xodos a {
+	text-decoration: none;
+	color: black;
+}
+
+.featured {
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-bottom: 50px;
+	background-image: url(./Banners_Bebidas_home_desktop_sem_texto.jpeg);
+	background-size: 103%;
+	display: flex;
+	justify-content: end;
+}
+
+.page-container-gin-bra {
+	padding: 60px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.black-bar-gin-bra {
+	width: 51px;
+	height: 3.75px;
+	background-color: black;
+}
+
+.page-container-gin-bra p {
+	margin: 60px 0;
+	line-height: 31.5px;
+}
+
+p {
+	font-size: 27px;
+}
+
+.page-container-gin-bra a {
+	padding: 15px 48px;
+	background-color: rgb(255, 209, 0);
+	text-align: center;
+	text-decoration: none;
+	font-size: 10.5px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.prateleira-chocolates {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.prateleira-chocolates h2 {
+	padding-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.prateleira-chocolates ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.prateleira-chocolates li {
+	box-sizing: border-box;
+	width: 33%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 24px;
+	margin-bottom: 40px;
+	font-size: 16.5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.prateleira-chocolates a {
+	text-decoration: none;
+	color: black;
+}
+
+.prateleira-chocolates img {
+	width: 100%;
+}
+
+.nome-produto {
+	font-size: 16.5px;
+	font-weight: 500;
+	margin-top: 24px;
+	margin-bottom: 13.5px;
+	line-height: 18px;
+}
+
+.preço-produto {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.btn-euquero {
+	padding: 15px 24px;
+	background-color: rgb(255, 209, 0);
+	text-align: center;
+	font-size: 10.5px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.pink-badge {
+	position: relative;
+}
+
+.pink-badge::before {
+  content: 'novidade';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 510;
+  position: absolute;
+  top: 25px;
+  left: -2px;
+  background-color: #ffa4b7;
+  padding: 11px 26px;
+}
+
+.blue-badge {
+	position: relative;
+}
+
+.blue-badge::before {
+  content: 'dica de presente';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 510;
+  position: absolute;
+  top: 25px;
+  left: -2px;
+  background-color: #76b8c6;
+  padding: 11px 26px;
+}
+
+.presentes {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+	background-image: url(./Caixa-presente.png);
+	background-size: 103%;
+	display: flex;
+	justify-content: end;
+}
+
+.page-container-presentes p {
+	margin-top: 30%;
+	margin-bottom: 20%;
+	margin-left: 3%;
+}
+
+.page-container-presentes {
+	padding: 60px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-container-presentes a {
+	padding: 15px 48px;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10.5px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1.05px;
+	margin-left: 3%;
+}
+
+.black-bar-presentes {
+	width: 51px;
+	height: 3.75px;
+	background-color: black;
+	margin-left: 3%;
+}
+
+.nossos-diferenciais {
+	background-color: rgb(255, 209, 0);
+	margin-top: 48px;
+	padding-top: 24px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.page-container-diferenciais {
+	box-sizing: border-box;
+	display: grid;
+	flex-direction: column;
+	grid-template-columns: 645px 330px;
+	margin-left: 133px;
+	margin-right: 133px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.nossos-diferenciais-info {
+	padding: 22.5px;
+}
+
+h3 {
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: -1.08px;
+	line-height: 33.75px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.nossos-diferenciais-info p {
+	font-size: 16.5px;
+	font-weight: 300;
+	letter-spacing: -1.08px;
+	line-height: 22.5px;
+	margin-bottom: 10px;
+	max-width: 219px;
+}
+
+.nossos-diferenciais-items {
+	display: flex;
+	flex-direction: row;
+	margin-top: 17%;
+	max-height: 210px;
+	width: 288px;
+	align-items: center;
+}
+
+.nossos-diferenciais-items div,
+.nossos-diferenciais-items img {
+	width: 60%;
+}
+
+.nossos-diferenciais-items img {
+	margin-left: 24%;
+}
+
+.nossos-diferenciais-items strong {
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 18px;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+
+.nossos-diferenciais-items p {
+	font-size: 13px;
+	font-weight: 350;
+	line-height: 20px;
+	margin-top: 15px;
+}
+
+/*footer*/
+
+.footer-nav {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 41.25px;
+	width: 1265px;
+	height: 190px;
+}
+
+.links {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo-footer {
+	width: 20%;
+	padding-left: 15%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.logo-white {
+	height: 45px;
+	width: 45px;
+}
+
+.logo-selos {
+	margin-top: 37.500px;
+}
+
+.selo_b {
+	height: 49.9375px;
+	width: 30px;
+	margin-right: 7.500px;
+	vertical-align: middle;
+}
+
+.selo_carbono {
+	height: 20.6875px;
+	width: 45px;
+	margin-right: 7.500px;
+	vertical-align: middle;
+}
+
+.lista-links {
+	display: flex;
+	flex-direction: column;
+	margin-right: 60px;
+}
+
+.lista-links li {
+	margin-bottom: 16px;
+}
+
+.lista-links a {
+	font-size: 10.5px;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 7.5px;
+}
+
+.social {
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	padding-right: 6px;
+	padding-top: 5px;
+}
+
+.social p {
+	font-size: 12px;
+	font-weight: 300;
+	color: white;
+	line-height: 18px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 0 30px 10px 30px;
+	display: flex;
+	border-bottom: 1px solid #eeeeee;
+	flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.social .text {
+	width: auto;
+}
+
+.social .action-image {
+	width: 27px;
+	margin-left: 12px;
+	display: flex;
+    align-items: center;
+}
+
+.social-networks {
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	margin: 0;
+	width: 100%;
+}
+
+.social-networks li img {
+	margin: 0 6px;
+}
+
+.social-networks li img {
+	display: block;
+}
+
+.whatsapp {
+	height: 30px;
+	width: 30px;
+}
+
+.instagram {
+	height: 28px;
+	width: 28px;
+}
+
+.youtube {
+	height: 25px;
+	width: 36px;
+}
+
+.facebook {
+	height: 28px;
+	width: 16px;
+}
+
+.spotify {
+	height: 27px;
+	width: 27px;
+}
+
+.copyright {
+	background-color: rgb(255, 209, 0);
+	width: 1265px;
+	height: 40px;
+}
+
+.copyright p {
+	font-size: 10.5px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 15px;
+}
